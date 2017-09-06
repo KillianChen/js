@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>猜数字</title>
+</head>
+<body>
+    <script>
+     var num=prompt("请输入您猜的数字");
+     while(num<=10){
+     if (num==5) {
+     alert("猜对了！");
+     break;
+     }
+     else{
+     if (num<5) {
+     alert("猜小了！");
+     var num=prompt("请输入您猜的数字");
+     }
+     else{
+     alert('猜大了！');
+     var num=prompt("请输入您猜的数字");
+     }
+     }
+     }
+
+</script>
+</body>
+</html>
